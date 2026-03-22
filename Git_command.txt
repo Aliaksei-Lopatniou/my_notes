@@ -1,0 +1,30 @@
+
+git config --list #view my global conf.file
+
+git config --global user.name/email <..> #edit my global conf.file
+
+git init #New rep. Input from the desired directory
+
+git status # inf about branch and changes
+
+git log # history of commits
+
+| working_dir | - git add <files>/. -> | index | - git commit -m "<message>"-> | repositorium |
+      ^------------ git checkout <commit hash>/<branch name*>------------------------
+
+* - the branch refers to the latest commit
+
+files status:
+	- Untracked
+	- Unmodified
+	- Modified
+	- Staged 
+
+Git objects:
+	- Blob(file)
+	- Tree(folder)
+	- Commit (link to tree. all data and meta_data)
+	- Annotated Tag (tag)
+
+Git hash-func: 
+	-SHA1 ()  len=40
