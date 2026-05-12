@@ -14,6 +14,25 @@ git log # history of commits
 
 * - the branch refers to the latest commit
 
+==============================================================================================
+git branch - list of branches
+git branch <branch_name>  - create new branch
+git branch -m <new branch name> - rename current branch
+git checkout -b <branch_name> - create new branch and <HEAD> in this branch
+git branch -d <branch_name> - remove branch (not current only)
+git merge <branch_name> - branch_name && current branch
+		       
+							
+		     		----- [commit] <- [commit] ← "branch_2"
+		     		↓	  
+					   
+[root commit] <- [commit] <- [commit] <- [commit] ← "main"-<HEAD>
+	             			
+		    ↑			 
+		    ----- [commit] <- [commit] ← "branch_1"		    
+					 
+==============================================================================================					
+
 files status:
 	- Untracked
 	- Unmodified
@@ -28,3 +47,25 @@ Git objects:
 
 Git hash-func: 
 	-SHA1 ()  len=40
+
+
+
+==============================================================================================					
+
+GITHUB (^-^)
+
+git clone <url> 
+git branch -a
+git pull # <-
+git push -u origin <branch># ->
+git push # ->
+git remote add origin <url>
+
+DPDPC5785BA8
+
+
+
+
+
+
+
